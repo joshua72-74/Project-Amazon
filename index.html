@@ -7,53 +7,102 @@
     <title>Online Shopping site in India</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/remixicon@4.3.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTg-gUue-TV9q4Y2DIc25Fb1mkM1HvdZprmuggJHlW3LlYQOfujtDW7C-lmMNSTOf09DsM&usqp=CAU">
 </head>
 
 <body>
-    <nav>
-        <img src="https://wallpapers.com/images/hd/amazon-logo-black-background-xb9pdemosnjfz9ej.jpg" alt="">
-        <div>
-            <i class="ri-map-pin-line"></i>
-            <p>Delivering to Betul Bazar 460001 <br> <b>Update Location</b></p>
-        </div>
+    <div class="main">
+        <nav>
+            <a href="index.html"><img
+                    src="https://wallpapers.com/images/hd/amazon-logo-black-background-xb9pdemosnjfz9ej.jpg" alt=""></a>
+            <div class="location">
+                <i class="ri-map-pin-line"></i>
+                <p>Delivering to Betul Bazar 460001 <br> <b>Update Location</b></p>
+            </div>
 
-        <div class="search-bar">
-            <select name="" id="">
-                <option value="">All categories</option>
-                <option value="">Alexa Skills</option>
-                <option value="">Amazon Devices</option>
-                <option value="">Amazon Fashion</option>
-                <option value="">Amazon Pharmacy</option>
-                <option value="">Appliances</option>
-                <option value="">Apps and Games</option>
-                <option value="">Audible Autobooks</option>
+            <div class="search-bar">
+                <select name="" id="">
+                    <option value="">All categories</option>
+                    <option value="">Alexa Skills</option>
+                    <option value="">Amazon Devices</option>
+                    <option value="">Amazon Fashion</option>
+                    <option value="">Amazon Pharmacy</option>
+                    <option value="">Appliances</option>
+                    <option value="">Apps and Games</option>
+                    <option value="">Audible Autobooks</option>
+                </select>
+                <input type="text" placeholder="Search Amazon.in">
+                <i class="ri-search-line"></i>
+            </div>
+
+            <select>
+                <option value="">English</option>
+                <option value="">Hindi</option>
+                <option value="">Spanish</option>
+                <option value="">Malayalam</option>
+                <option value="">Tamil</option>
             </select>
-            <input type="text" placeholder="Search Amazon.in">
-            <i class="ri-search-line"></i>
+
+
+            <div class="sign-in">
+                <p>Hello, Sign in</p>
+                <p><b>Accounts & Lists</b><i class="ri-arrow-down-s-fill"></i></p>
+            </div>
+            <label for="sign-in">
+                <button>Sign in</button>
+                <div>New customer <a href="">Start here</a></div>
+
+                <div class="sign-in-content">
+                    <div class="box-1">
+                        <h1>Your lists</h1>
+                        <p>Create a wishlist</p>
+                        <p>Wish from any website</p>
+                        <p>Baby Wishlist</p>
+                        <p>Discover your Style</p>
+                        <p>Explore Showroom</p>
+                    </div>
+
+                    <div class="box-2">
+                        <h1>Your account</h1>
+                        <p>Your Account</p>
+                        <p>Your Orders</p>
+                        <p>Your Wishlist</p>
+                        <p>Your Recommendations</p>
+                        <p>Your Prime Membership</p>
+                        <p>Your Prime video</p>
+                        <p>Your Subscribe and Save Items</p>
+                        <p>Membership and Subscriptions</p>
+                        <p>Your seller account</p>
+                        <p>Manage your Content and Devices</p>
+                        <p>Your free Amazon business account</p>
+                    </div>
+                </div>
+            </label>
+
+            <a href="return.html" target="_blank">
+                <div>
+                    <p>Returns</p>
+                    <p><b>& Orders</b></p>
+                </div>
+            </a>
+
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGd2sjxFQjvIeJHrB6h01ODTyCuzYmEwvy1w&s"
+                alt="">
+        </nav>
+    </div>
+
+
+    <div class="popup">
+        <div><span>Choose your location</span> <i class="ri-close-large-fill"></i></div>
+        <div>Select a delivery location to see product availability and delivery options</div>
+        <button>Sign in to see your addresses</button>
+        <div>or enter an Indian pincode</div>
+        <div class="apply">
+            <input type="text">
+            <button>Apply</button>
         </div>
-
-        <select>
-            <option value="">English</option>
-            <option value="">Hindi</option>
-            <option value="">Spanish</option>
-            <option value="">Malayalam</option>
-            <option value="">Tamil</option>
-        </select>
-
-        <div>
-            <p>Hello, Sign in</p>
-            <p><b>Accounts & Lists</b><i class="ri-arrow-down-s-fill"></i></p>
-        </div>
-
-        <div>
-            <p>Returns</p>
-            <p><b>& Orders</b></p>
-        </div>
-
-        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGd2sjxFQjvIeJHrB6h01ODTyCuzYmEwvy1w&s" alt="">
-
-
-    </nav>
+    </div>
 
     <script src="script.js"></script>
 </body>

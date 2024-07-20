@@ -19,12 +19,28 @@ var b = document.querySelector(".popup");
 var main = document.querySelector(".main");
 a.addEventListener("click", () => {
     b.style.display = "flex";
-    main.style.filter = "blur(1px)"
-})
+    main.style.filter = "blur(1px)";
+});
 
 var c = document.querySelector(".popup i");
 c.addEventListener("click", () => {
     b.style.display = "none";
-    main.style.filter = "blur(0px)"
-})
+    main.style.filter = "blur(0px)";
+});
+
+// 
+
+
+var all = document.querySelector(".container-1>div:first-child");
+var sidebar = document.querySelector(".side-bar");
+
+all.addEventListener("click", ()=>{
+    sidebar.style.display = "block";
+});
+
+var close = document.querySelector(".side-bar>i");
+
+close.addEventListener("click", ()=>{
+    sidebar.style.display = "none";
+});
 

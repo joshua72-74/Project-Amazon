@@ -25,7 +25,7 @@ a.addEventListener("click", () => {
 var c = document.querySelector(".popup i");
 c.addEventListener("click", () => {
     b.style.display = "none";
-    main.style.filter = "blur(0px)";
+    main.style.background = "blur(0px)";
 });
 
 // 
@@ -36,6 +36,8 @@ var sidebar = document.querySelector(".side-bar");
 
 all.addEventListener("click", ()=>{
     sidebar.style.display = "block";
+    main.style.backgroundColor = "rgba(0, 0, 0, 0.408)";
+    
 });
 
 var close = document.querySelector(".side-bar>i");

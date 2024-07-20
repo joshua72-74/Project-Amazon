@@ -27,6 +27,7 @@ nav{
 
     position: fixed;
     top: 0;
+
 }
 
 nav img{
@@ -63,12 +64,15 @@ nav>div{
 }
 
 .search-bar select{
-    border: none;
+    border: 1px solid rgb(222, 220, 220);
 
     width: 2.5vw;
-    height: 5vh;
+    height: 4.8vh;
 
     background-color: rgb(222, 220, 220);
+
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
 }
 
 .search-bar select:hover{
@@ -103,7 +107,7 @@ nav>div{
 }
 
 nav>select{
-    width: 3vw;
+    width: 4vw;
     height: auto;
 
     background-color: black;
@@ -232,7 +236,7 @@ nav>img:last-child{
     padding: 5px;
 }
 
-nav>div:hover, img:hover, select:hover{
+nav>div:hover, nav img:hover, nav select:hover{
     border: 1px solid white;
     transition: 0.5s;
 
@@ -483,4 +487,76 @@ nav a{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+
+}
+
+.container-2 .product{
+    background-color: rgb(252, 252, 252);
+
+    width: 22vw;
+    height: 49vh;
+
+    padding: 20px 25px;
+
+    line-height: 27px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.container-2>.product:last-child{
+    height: 20vh;
+    margin-bottom: 29vh;
+}
+
+.container-2 h1{
+    font-size: 20px;
+}
+
+.product img{
+    width: 140px;
+    height: 100px;
+
+    border-radius: 0;
+}
+
+.product figcaption{
+    font-size: 14px;
+
+    margin-top: -8px;
+
+    display: flex;
+
+    background-color: lavenderblush;
+
+    text-align: center;
+
+    width: 140px;
+    height: 40px;
+
+    line-height: 17px;
+}
+
+.product figure:hover{
+    cursor: pointer;
+}
+
+.product button{
+    background-color: gold;
+
+    text-align: center;
+
+    font-size: 15px;
+
+    width: 100%;
+    height: 30px;
+
+    border: none;
+    border-radius: 10px;
 }
